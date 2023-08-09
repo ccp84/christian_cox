@@ -1,0 +1,59 @@
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #403a34;
+    background-color: #ebe8e2;
+}
+
+/************************** Header */
+
+.logo {
+    background-image: url(../images/hero_image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+
+/************************** Content */
+
+.black-box {
+    background-color: #403a34;
+    min-height: 50px;
+    color: #ebe8e2;
+}
+
+.black-box a {
+    color: #ebe8e2;
+    text-decoration: none;
+}
+
+.jumbotron {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+/************************** Footer */
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+  }
